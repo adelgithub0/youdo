@@ -28,6 +28,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     except Exception as e:
         await update.message.reply_text(f"خطا در دانلود: {e}")
+        "cookies": "./youtube-cookies.txt"
 
 app = ApplicationBuilder().token("7719610421:AAE8sovwJZp4WH62S7Z8Wl14CS6pHwSLNGE").build()
 
